@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   background-color:rgb(228, 186, 171);
+}
+
+
+.button :hover{
+    cursor: pointer;
+}
+.container{
+    background-image: url("doctor-563429_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid grey;
+    height: 60px;
+    margin-top: 0px;
+}
+
+.title{
+    display: flex;
+}
+.title h1{
+    margin-left: 10px;
+    color: rgb(21, 21, 82);
+    font-family: fantasy;
+    
+}
+.title i{
+    padding-top:8px ;
+    font-size: 30px;
+}
+
+.nav{
+    margin-right: 200px;
+}
+
+.nav a{
+    text-decoration:none ;
+    margin-inline: 25px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    
+}
+
+.nav a:hover{
+    color: rgb(214, 142, 0);
+   
+}
+
+.button{
+    margin-right: 50px;
+}
+
+.button button{ 
+    height: 40px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+}
+.icon i{
+    font-size: 20px;
+    margin-inline: 10px;
+}
+
+.services{
+    display: flex;
+    margin-top: 100px;
+    margin-inline: 40px;
+}
+
+.services :hover{
+    background-color: greenyellow;
+}
+
+.services :hover{
+    cursor: pointer;
+}
+.herotxt{
+    margin-top: 100px;
+    font-size:45px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    margin-left: 28px;
+    display: flex;
+}
+
+.appointment{
+    border: 1px solid gray;
+    height: 100px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: rgb(197, 195, 195);   
+}
+
+.Specialization{
+    border: 1px solid gray;
+    height: 100px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: rgb(197, 195, 195);
+    
+}
+
+.service{
+    border: 1px solid gray;
+    height: 100px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: rgb(197, 195, 195);
+    
+}
+.appointment p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.Specialization p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.service p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.appointment i{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.service i{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+
+.section{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 95px;
+}
+
+.sec1 h1{
+    font-size:100px;
+    color: rgb(45, 45, 215);
+}
+
+.sec1 h4{
+    margin-left:80px ;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.sec2 h1{
+    font-size: 110px;
+    font-weight: 100px;
+    margin-left: 160px;
+    color: rgb(45, 45, 215);
+}
+.sec2 h1 span{
+    font-size: 125px;
+   
+}
+
+.sec2 h2{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.sec3{
+    margin-left: 100px;
+}
+
+.sec3 h1{
+    
+    font-size:90px;
+    margin-top: 15px;
+    color: rgb(45, 45, 215);
+    
+}
+.sec3 p{
+    margin-top: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+
+.box1{
+    width: 300px;
+    height: 290px;
+    padding: 4px;
+    background-color: gray;
+    text-align: center;
+    margin-inline: 22px;
+}
+
+.box2{
+    width: 300px;
+    height: 290px;
+    padding: 4px;
+    background-color: gray;
+    text-align: center;
+    margin-inline: 22px;
+}
+
+.box3{
+    width: 300px;
+    height: 290px;
+    padding: 4px;
+    background-color:gray;
+    text-align: center;
+    
+}
+.heading{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.heading p{
+    font-size: 20px;
+    color:rgb(45, 45, 215) ;
+}
+
+.heading h1{
+    margin-top: 13px;
+}
+.box i{
+    font-size: 60px;
+}
+.box h2{
+    margin-top: 17px;
+}
+.box p{
+    margin-top: 17px;
+}
+.box a{
+    margin-top: 20px;
+}
+
+.box :hover{
+    width: 320px;
+}
+
+
+.contact .head{
+    margin-top: 20px;
+}
+
+.contactUs{
+    text-align: center;
+    margin-top: 22px;
+}
+
+.contactUs input{
+    width: 350px;
+    height: 33px;
+    padding: 8px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.contactUs button{
+    width: 365px;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: green;
+    border-radius: 2px;
+    margin-top: 22px;
+}
+
+.contactUs button:hover{
+    border: 2px solid white ;
+    background-color: transparent;
+    cursor: pointer;
+    color: green;
+}
+
+
+.Box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+
+.Box1{
+    width: 300px;
+    height: 290px;
+    padding: 4px;
+    background-color: gray;
+    text-align: center;
+    margin-inline: 22px;
+}
+
+.Box2{
+    width: 300px;
+    height: 290px;
+    padding: 4px;
+    background-color: gray;
+    text-align: center;
+    margin-inline: 22px;
+}
+
+.Box3{
+    width: 300px;
+    height: 290px;
+    padding: 4px;
+    background-color:gray;
+    text-align: center;
+    
+}
+
+.Box i{
+    font-size: 60px;
+}
+.Box h2{
+    margin-top: 17px;
+}
+.Box p{
+    margin-top: 17px;
+}
+.Box a{
+    margin-top: 20px;
+}
+
+.Box :hover{
+    width: 320px;
+}
+
+
+.button1{
+    margin-top: 70px;
+    margin-left: 30rem;   
+}
+
+.button1 button{
+    font-size: 18px;
+    font-weight: bold ;
+    border: 2px solid black;
+
+}
+
+.button1 button:hover{
+    background-color: green;
+    background:transparent;
+    cursor: pointer;
+}
+
+.lst1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    box-shadow: 0px 2px 6px 2px rgb(31,30,30);
+}
+.lst h1{
+    margin-top: 5px;
+}
+
+.last{
+    text-align: center;
+    background-color: green;
+    height: 50px;
+    font-size:20px ;
+    
+}
+
+.icon12 a{
+    font-size: 30px;
+    margin-inline: 10px;
+}
+.icon12 a:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="DBMS1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <i class="fa-solid fa-stethoscope"></i>
+                <h1>Hospital Management</h1>
+            </div>
+            <div class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="button">
+                <button id="payment">Make payment</button>
+            </div>
+            <div class="icon">
+                <i  class="fa-solid fa-magnifying-glass"></i>
+                <i id="locationIcon" class="fas fa-map-marker-alt"></i>
+                
+            </div>
+            
+            
+            
+        </header>
+
+        <div class="Herosection" id="home">
+            <div class="herotxt">
+                <h1>Our expertise at <br>your service</h1>
+
+            </div>
+
+            <div class="services">
+                <div class="appointment">
+                    <p>Book an Appointment &rarr;</p>
+                    <br>
+                    <i class="fa-solid fa-book"></i>
+                </div>
+
+                <div class="Specialization">
+                    <p>Specialization &rarr;</p>
+
+                </div>
+
+                <div class="service">
+                    <p>Our Services &rarr;</p>
+                    <br>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section" id="about">
+            <div class="sec1">
+                <h1>120+</h1>
+                <h4>Countries</h4>
+                <p>Trusted by top hospitals & clinics <br>
+                    in more than 120 countries worldwide
+                </p>
+            </div>
+
+            <div class="sec2">
+                <h1>#<span>1</span></h1>
+                <h2>Hospital Management System</h2>
+
+            </div>
+
+            <div class="sec3">
+                <h1>70+</h1>
+                <h3>Languages</h3>
+                <p>Our HMS speaks your languages <br>Available in 70+ languages</p>
+
+            </div>
+        </div>
+
+        <div class="heading" id="services">
+            <p>KEY FEATURES</p>
+            <h1>Everything you need for Hospital <br>Management</h1>
+        </div>
+
+        <div class="box">
+            <div class="box1">
+                <i class="fa-regular fa-hospital"></i>
+                <h2>OPD & IPD Management</h2>
+                <p>Manage OPD & IPD effectively,<br>
+                    reduces your workload and makes it<br>
+                    easier to care for your patients.
+                </p>
+                <a href="http://hospitalmanagementsystem.org/software-features.html#opd">Read More</a>
+            </div>
+
+            <div class="box2">
+                <i class="fa-solid fa-prescription"></i>
+                <h2>e-Prescriptions</h2>
+                <p>HMS helps you deliver the perfect e-<br>
+                    prescription in a readable, fast and <br>
+                    safe way for your patient.
+                </p>
+                <a href="http://hospitalmanagementsystem.org/software-features.html">Read More</a>
+            </div>
+
+            <div class="box3">
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Consultant</h2>
+                <p>Simple, Easy and Fast telemedicine <br>
+                    module allows you to chat with the <br>
+                    patient by video call.
+                </p>
+                <a href="http://hospitalmanagementsystem.org/software-features.html#consultation">Read More</a>
+            </div>
+
+        </div>
+
+        <div class="Box">
+            <div class="Box1">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h2>Appointments</h2>
+                <p>Online appointment booking makes it <br> quick and easy for patients to get an <br>appointment online
+                    with the click of a <br> button.
+                </p>
+                <a href="http://hospitalmanagementsystem.org/software-features.html#appointment">Read More</a>
+            </div>
+
+            <div class="Box2">
+                <i class="fa-solid fa-wallet"></i>
+                <h2>Billing</h2>
+                <p>Effectively manage the billing of your <br>growing healthcare business. HMS <br> provides you with a
+                    perfect way to <br> collect payments online.
+                </p>
+                <a href="QR.png">Read More</a>
+            </div>
+
+            <div class="Box3">
+                <i class="fa-solid fa-wallet"></i>
+                <h2>Patient Records</h2>
+                <p>Easily Organize the records of each <br> patient to ensure that your staff has <br>all relevant
+                    information at a glance <br> when dealing with patients.
+                </p>
+                <a href="http://hospitalmanagementsystem.org/software-features.html#doctor">Read More</a>
+            </div>
+        </div>
+
+        <div class="contactUs" id="contact">
+            <h1>Make An Entry</h1>
+            <input type="text" placeholder="Enter Your Name" value="" id="name"> <br>
+            <input type="text" placeholder="Enter Your Address" value="" id="address"> <br>
+            <input type="text" placeholder="Enter Your Number" value="" id="number"> <br>
+            <button onclick="submit()">Submit</button>
+            
+         </div>   
+
+        <div class="button1">
+            <button id="Explore">EXPLORE ALL FEATURES</button>
+            <button id="Try">TRY FOR FREE &rarr;</button>
+        </div>
+        <footer class="lst1">
+            <div class="lst">
+                <h1>Company</h1>
+                <p>About Company</p>
+                <p>Success Stories </p>
+                <p>Pricing</p>
+                <p>On Premise</p>
+                <p>Partners</p>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+                <p>Contact us</p>
+            </div>
+
+
+            <div class="lst">
+                <h1>Top Features</h1>
+                <p>OPD & IPD Management</p>
+                <p>Appointments </p>
+                <p>Video Consultation</p>
+                <p>Online Payments</p>
+                <p>Front Office Management</p>
+                <p>Business Intelligence Reports</p>
+                <p>Website for Hospital</p>
+                <p>Doctor Portal</p>
+                <p>Patient Portal</p>
+
+            </div>
+
+
+
+            <div class="lst">
+                <h1>Solutions</h1>
+                <p>Hospital Software</p>
+                <p>Clinic Software </p>
+                <p>EHR EMR Software</p>
+                <p>Practice Management Software</p>
+                <p>Dental Clinic Software</p>
+                <p>Aesthetics Clinic Software</p>
+            </div>
+
+            
+
+            <div class="lst">
+                <h1>Get in Touch</h1>
+                <p>Got a question? Need a quote?</p>
+                <p>We would love to hear from you!</p>
+                <i class="fa-solid fa-phone"> +1 778 293 3021</i> <br>
+                <i class="fa-solid fa-envelope"> Hospital@123.org</i> <br>
+                <div class="icon12">
+                <a href="https://www.instagram.com/premayer123/" class="fa-brands fa-instagram"></a>
+                <a href="https://youtube.com/@premayer2725?si=TpP5RKYaFSBISiIS" class="fa-brands fa-square-youtube"></a>
+                
+            </div>
+            </div>
+
+        </footer>
+
+
+        <footer class="last">
+            <p>Made with &hearts; by Prem Ayer <br>
+                Copyright © Hospital Management System. A Brand of OnClick Technologies. All Rights Reserved.</p>
+        </footer>
+    </div>
+<script src="DBMS1.js"></script>
+</body>
+
+
+</html>
