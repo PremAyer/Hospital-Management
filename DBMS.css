@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("brandon-holmes-GofYo51GQ_4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: green;
+    margin-top: 200px;
+    margin-left: 280px;
+    
+
+}
+
+div h1{
+   text-align: center;
+   color: rgb(233, 130, 57);
+}
+
+div p{
+    margin-left: 132px;
+    font-size: 22px;
+    color:rgb(234, 162, 30);
+    margin-top:8px ;
+}
+
+
+.icon1 input{
+    margin-left: 132px;
+    margin-top: 9px;
+    width: 400px;
+    height: 35px;
+    border-radius: 17px;
+    border: 2px solid rgb(247, 167, 18);
+}
+
+.icon2 input{
+    margin-left: 132px;
+    margin-top: 9px;
+    width: 400px;
+    height: 35px;
+    border-radius: 17px;
+    border: 2px solid rgb(247, 167, 18);
+}
+
+div button{
+    margin-left: 275px;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 17px;
+    border: 2px solid rgb(247, 167, 18);
+    font-size: 20px;
+    color:black;    
+}
+
+div button:hover{
+   color: rgb(2, 144, 71);
+   width: 120px;
+   cursor: pointer;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 40px;
+    background: transparent;
+   
+}
